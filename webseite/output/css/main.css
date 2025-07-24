@@ -1,0 +1,265 @@
+/*
+
+	Stylesheet für meine Homepage			
+	Begonnen am 2. Mai 2007 			
+	Letzte Ã„nderung am 3. Januar 2009
+	
+*/
+
+
+/*
+
+	Farbgestaltung der Website
+	
+	Hintergrund: EAEAEA 
+	Schriftfarbe: 737373
+
+*/
+
+/*
+
+	################################################################
+	#                                                              #
+	#     Innen- und Außenabstände zurücksetzen                    #
+	#                                                              #
+	################################################################
+	
+*/
+
+	* {
+		padding: 0px;
+		margin: 0px;
+	}
+
+/*
+
+	################################################################
+	#                                                              #
+	#     Allgemeines Seitenlayout                                 #
+	#                                                              #
+	################################################################
+	
+*/
+
+	body {
+		background-color: #EAEAEA;
+		font-family: Sans-Serif;
+		font-size: 85%;
+		color: #737373;	
+	}
+	
+	#seite {
+		/*width: 770px;*/
+		width: 900px;
+		margin: 0 auto;
+		text-align: justify;
+		background-color: #343434;
+	}
+	
+	#navigation {
+		width: 900px;
+		height: 2.7em; 
+		float: right;
+		text-align: left;
+		background-color: #343434;
+	}
+	
+	#navigation ul {
+		float: right;	
+	}
+	
+	#inhalt {
+		width: 900px;
+		float: right;
+		text-align: justify;
+		line-height: 1.5em;
+		background-color: #FFFFFF;
+	}
+
+/*
+
+	################################################################
+	#                                                              #
+	#     Allgemeine Formatierungen, die jede Seite betreffen      #
+	#                                                              #
+	################################################################
+	
+*/
+
+	#inhalt a {
+		color: #6c9c24;
+		text-decoration: none;
+	}
+	
+	#inhalt a:hover {
+		text-decoration: underline;	
+	}
+	
+	#inhalt p a:hover {
+		text-decoration: none;
+	}
+	
+	#inhalt h1, h2, h3, h4, h5, h6 {
+		margin: 20px;
+		color: #939393;
+		clear: left;
+	}
+	
+	#inhalt p {
+		margin: 15px 20px;	
+	}
+	
+	#inhalt img {
+		border: 1px solid #6c9c24;
+	}
+
+/*
+
+	################################################################
+	#                                                              #
+	#     Foto auf der Startseite                                  #
+	#                                                              #
+	################################################################
+	
+*/
+
+	#inhalt img#bild1 {
+		float: right;
+		margin: 10px;
+	}
+
+/*
+
+	################################################################
+	#                                                              #
+	#     Formatierung für Hyperlinks                              #
+	#                                                              #
+	################################################################
+	
+*/
+
+	#inhalt ul.weiterleitung {
+		margin-left: 45px;	
+	}
+
+	#inhalt ul.weiterleitung li {
+		list-style-image: url("../Bilder/liste_pfeil.png");
+		margin-bottom: 5px;
+	}
+	
+	#inhalt ul.weiterleitung li a {
+		font-weight: bold;	
+		color: #6c9c24;
+		text-decoration: none;
+	}
+	
+	#inhalt ul.weiterleitung li a:hover {
+		text-decoration: underline;
+	}
+
+/*
+
+	################################################################
+	#                                                              #
+	#     Formatierung für die Linklisten                          #
+	#                                                              #
+	################################################################
+	
+*/
+
+	#inhalt ul.linkliste {
+		margin-left: 20px;
+	}
+	
+	#inhalt ul.linkliste li {
+		list-style-type: none;
+		margin-top: 0.5em;
+		font-weight: bold;
+	}
+	
+	#inhalt ul.linkliste li ul li {
+		list-style-image: url("../Bilder/liste_pfeil.png");
+		font-weight: normal;
+		margin-left: 35px;
+	}
+
+/*
+
+	################################################################
+	#                                                              #
+	#     Formatierung für die Galerien                            #
+	#                                                              #
+	################################################################
+	
+*/
+
+	#inhalt div.galerie {
+		text-align: center;
+	}
+	
+	#inhalt div.galerie ul li {
+		display: inline;
+		list-style-type: none;
+	}
+	
+/*
+
+	################################################################
+	#                                                              #
+	#     Formatierung der Definitionslisten                       #
+	#                                                              #
+	################################################################
+	
+*/	
+	
+	div#inhalt dl {
+		width : 273px;
+		float : left;
+		margin-bottom : 5px;
+		margin-right : 10px;
+		margin-left: 30px;
+	}
+	
+	div#inhalt dl dt, dd {
+		margin-left : 10px;
+	}
+	
+	div#inhalt dl dt dd {
+		margin-left : 30px;
+	}
+
+/*
+
+	################################################################
+	#                                                              #
+	#     Formatierung für die Fotogalerie                         #
+	#                                                              #
+	################################################################
+	
+*/	
+
+	#inhalt #fotogalerie {
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	#inhalt .fotogalerie ul {
+		margin-left: 10px;
+	}
+	
+	#inhalt .fotogalerie ul li {
+		list-style-type: none;
+		display: inline;
+		float : left;
+	}
+	
+	#inhalt .fotogalerie img:hover {
+		background-color: #eee;
+	}
+	
+	#inhalt .fotogalerie .foto {
+		margin: 0 10px 0 0;
+		padding: 10px;
+		border: 1px solid;
+		background-color: #fff;
+	}

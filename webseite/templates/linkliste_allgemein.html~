@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de">
+	<head>
+		<title>Thomas' Homepage | Linksammlung: Allgemein</title>
+		
+		<meta name="robots" content="index,follow" />
+		<meta name="keywords" content="links, linkliste, linksammlung" />
+		<meta name="description" content="Linksammlung für jeden Zweck" />
+		<meta name="author" content="thomas" />
+		<meta http-equiv="Content-type" content="text/html charset=utf8" />
+		
+		<link rel="stylesheet" type="text/css" href="./css/main.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="./css/superfish.css" media="screen" />
+
+		<script type="text/javascript" src="./javascripts/jquery.js"></script>
+		<script type="text/javascript" src="./javascripts/superfish.js"></script>
+		<script type="text/javascript" src="./javascripts/init_superfish.js"></script>
+		
+	</head>
+	
+	<body>
+
+		<div id="seite">
+
+			<div id="navigation">
+
+<!--MENU-->
+			
+			</div>
+
+			<div id="inhalt">
+				
+			</div>
+		</div>
+	</body>
+</html>
+ 

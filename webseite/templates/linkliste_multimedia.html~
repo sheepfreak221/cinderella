@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de">
+	<head>
+		<title>Thomas' Homepage | Linksammlung: Multimedia</title>
+		
+		<meta name="robots" content="index,follow" />
+		<meta name="keywords" content="links, linkliste, linksammlung" />
+		<meta name="description" content="Linksammlung für jeden Zweck" />
+		<meta name="author" content="thomas" />
+		<meta http-equiv="Content-type" content="text/html charset=utf8" />
+		
+		<link rel="stylesheet" type="text/css" href="./css/main.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="./css/superfish.css" media="screen" />
+
+		<script type="text/javascript" src="./javascripts/jquery.js"></script>
+		<script type="text/javascript" src="./javascripts/superfish.js"></script>
+		<script type="text/javascript" src="./javascripts/init_superfish.js"></script>
+
+		
+	</head>
+	
+	<body>
+
+		<div id="seite">
+
+			<div id="navigation">
+
+<!--MENU-->
+			
+			</div>
+
+			<div id="inhalt">
+			
+				<h1>Linksammlung</h1>
+				
+				<ul class="linkliste">
+					<li>Musik, Filme und Texte:
+						<ul>
+							<li><a href="http://www.jamendo.com">Jamendo - Plattform Nr. 1 f&uuml;r freie Musik.</a></li>
+							<!--<li><a href="http://www.famusfilm.de/">Famusfilm &Acirc;&copy; Das Kurzfilmportal</a></li>-->
+							<li><a href="http://www.youtube.com/movies">YouTube - Movies</a></li>
+							<li><a href="http://www.elephantsdream.org/">Elephants Dream</a></li>
+							<li><a href="http://www.bigbuckbunny.org/">Big Buck Bunny</a></li>
+							<li><a href="http://www.sintel.org/">Sintel</a></li>
+							<li><a href="http://www.tearsofsteel.org/">Tears of Steel</a></li>
+							<li><a href="http://www.southpark.de/">South Park Studios</a></li>
+							<li><a href="http://gutenberg.spiegel.de/">Projekt Gutenberg-DE</a></li>
+							<li><a href="http://www.zeno.org/">Zeno.org - Meine Bibliothek</a></li>
+							<li><a href="http://www.vorleser.net/">Vorleser.net - kostenlos mp3-H&ouml;rb&uuml;cher downloaden</a></li>
+							<li><a href="http://www.sagen.at/index.html">SAGEN.at - Sagen und Datenbanken zur Europ&auml;ischen Ethnologie</a></li>
+						</ul>
+					</li>
+					<li>Mediatheken:
+						<ul>
+							<li><a href="http://www.mediathek.at/">Die &Ouml;sterreichische Mediathek</a></li>
+							<li><a href="http://tvthek.orf.at/">ORF TVthek</a></li>
+							<li><a href="http://okto.tv/schauen/oktothek">Oktothek</a></li>
+							<li><a href="http://www.3sat.de/mediathek/">3sat Mediathek</a></li>
+							<li><a href="http://www.zdf.de/ZDFmediathek">ZDF Mediathek</a></li>
+							<li><a href="http://mediathek.daserste.de/">ARD Mediathek</a></li>
+							<li><a href="http://www.arte.tv/guide/de/plus7">Arte+7</a></li>
+						</ul>
+					</li>
+						<li>Internetradios:
+						<ul>
+							<li><a href="http://radio.orf.at/">radio.ORF.at - Radioprogramme des &Ouml;sterreichischen Rundfunks</a></li>
+							<li><a href="http://www.deutschlandfunk.de/">Deutschlandfunk</a></li>
+							<li><a href="http://www.kulturradio.de/">Kulturradio vom RBB</a></li>
+							<li><a href="http://www.bbc.co.uk/radio/">BBC Radio - Die Radioprogramme der British Broadcasting Corporation</a></li>
+							<li><a href="http://www.npr.org/">NPR - National Public Radio</li>
+							<li><a href="http://www.freefm.de/">Radio free FM</a></li>
+							<li><a href="http://www.campusradio.at/desktop/">Campus Radio 94.4</a></li>
+							<li><a href="http://o94.at/">ORANGE 94.0 - Das freie Radio in Wien</a></li>
+							<li><a href="http://www.chronixradio.com/">chroniXradio.com - Hard Rock Radio and Metal Radio</a></li>
+							<li><a href="http://death.fm/">Death.FM</a></li>
+						</ul>
+					</li>
+					<li>Podcasts:
+						<ul>
+							<li><a href="http://cre.fm/">CRE: Technik, Kultur, Gesellschaft</a></li>
+							<li><a href="http://ulm.ccc.de/dev/radio/list?show=archive">/dev/radio - Das Radiomagazin des CCC</a></li>
+							<li><a href="http://n00bcore.de/">noobcore | Die Welt der Computer aus Sicht Normalsterblicher</a></li>
+							<li><a href="http://raumzeit-podcast.de/">Raumzeit | Der Podcast &uuml;ber Raumfahrt von ESA und DLR</a></li>							
+							<li><a href="http://www.lobundtadel.eu/">Lob und Tadel | Nicht nur f&uuml;r Lehrer</a></li>
+							<li><a href="http://stimmen.univie.ac.at/">Stimmen der Kulturwissenschaften</a></li>
+							<li><a href="http://www.wdr5.de/sendungen/philosophischesradio/">Das philosophische Radio</a></li>
+							<li><a href="http://www.deutschlandradiokultur.de/thema.953.de.html">Deutschlandradio Kultur - Thema</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
+ 

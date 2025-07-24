@@ -1,0 +1,110 @@
+// Fang' die Maus
+// JavaScript
+// Von Thomas
+// Begonnen am 29. Dezember 2008
+// Letzte Änderung am 5. Jänner 2009 
+
+function levellaenge()
+{
+	var laengelevel = Math.floor(10 + 20 * Math.random());
+	
+	return laengelevel
+}
+
+// Variablen für das Spiel
+//
+var mausdiv, spielfeld, punkteAusgabe, levelAnzeige, mausbild;
+var mausGeschwindigkeit = 1000;
+var spielfeldHoehe = 500;
+var spielfeldLaenge = 500;
+var mausX = 0;
+var mausY = 0;
+var Punkte = 0;
+var Level = 1;
+var klicke = 0;
+var laevellenge = levellaenge();
+
+window.onload = function meinSpiel()
+{
+	// IDs werden eingelesen
+	//
+	mausdiv = document.getElementById("maus");
+	spielfeld = document.getElementById("spielfeld");
+	punkteAusgabe = document.getElementById("punkteAusgabe");
+	levelAnzeige = document.getElementById("level");
+	
+	// Die Werte für die Maus
+	//
+	mausdiv.style.position = "absolute";
+	mausdiv.style.marginLeft = mausX + "px";
+	mausdiv.style.marginTop = mausY + "px";
+	
+	// Die Werte für das Spielfeld
+	//
+	spielfeld.style.marginTop = 5 + "px";
+	spielfeld.style.marginLeft = 15 + "px";
+	spielfeld.style.height = spielfeldHoehe + "px";
+	spielfeld.style.width = spielfeldLaenge + "px";
+	spielfeld.style.backgroundColor = "#050f15";
+	spielfeld.style.border = "1px solid #0b1f2a";
+	spielfeld.style.cursor= "crosshair";
+	
+	// Die Formatierung für die Anzeige der Punkte
+	//
+	punkteAusgabe.style.marginLeft = 15 + "px";
+	punkteAusgabe.style.marginTop = 5 + "px";
+	punkteAusgabe.style.fontWeight = "bold";
+	
+	// Die Formatierung für die Anzeige des Levels
+	//
+	levelAnzeige.style.marginLeft = 15 + "px";
+	levelAnzeige.style.marginTop = 10 + "px";
+	levelAnzeige.style.fontWeight = "bold";
+	
+	// Die Maus wird erstellt
+	maus = new Image();
+	maus.src = "Bilder/Spiele/maus.gif";
+	maus.style.border = "none";
+	maus.height = 116;
+	maus.width = 136;
+	mausdiv.appendChild(maus);
+	
+	mausBewegen();
+}
+
+function mausBewegen()
+{
+	mausX = Math.floor(1 + (spielfeldHoehe - 116) * Math.random());
+	mausY = Math.floor(1 + (spielfeldLaenge - 136) * Math.random());
+	
+	maus.style.marginTop = (mausX) + "px";
+	maus.style.marginLeft = (mausY) + "px";
+	window.setTimeout("mausBewegen()", mausGeschwindigkeit);
+}
+
+function punkte() 
+{		
+	punkteAusgabe = document.getElementById("punkteAusgabe");
+	levelAnzeige = document.getElementById("level");
+	
+	klicke++;
+	
+	if (klicke == laevellenge)
+	{
+		klicke = 0;
+		Level++;
+
+		mausGeschwindigkeit = (mausGeschwindigkeit / (Level / 2));
+	}
+	else
+	{	
+		// Die neuen Punkte werden berechnet
+		//
+		Punkte = Punkte + (10 * Level);
+	}
+	
+	// Die neuen Punkte und das Level werden angezeigt
+	//
+	punkteAusgabe.innerHTML = "Punkte: " + Punkte;
+	levelAnzeige.innerHTML = "Level: " + Level;
+}

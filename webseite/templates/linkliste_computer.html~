@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de">
+	<head>
+	
+		<title>Thomas' Homepage | Linksammlung: Computer</title>
+		
+		<meta name="robots" content="index,follow" />
+		<meta name="keywords" content="links, linkliste, linksammlung" />
+		<meta name="description" content="Linksammlung für jeden Zweck" />
+		<meta name="author" content="thomas" />
+		<meta http-equiv="Content-type" content="text/html charset=utf8" />
+		
+		<link rel="stylesheet" type="text/css" href="./css/main.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="./css/superfish.css" media="screen" />
+
+		<script type="text/javascript" src="./javascripts/jquery.js"></script>
+		<script type="text/javascript" src="./javascripts/superfish.js"></script>
+		<script type="text/javascript" src="./javascripts/init_superfish.js"></script>
+		
+	</head>
+	
+	<body>
+
+		<div id="seite">
+
+			<div id="navigation">
+
+<!--MENU-->
+			
+			</div>
+
+			<div id="inhalt">
+			<ul  class="linkliste">
+					<li>Programmieren, Webdesign und Textsatz:
+						<ul>
+							<li><a href="http://www.cpp-entwicklung.de/cpplinux/cpp_main/cpp_main.html">C++-Entwicklung mit Linux</a></li>
+							<li><a href="http://php.net/manual/de/index.php">PHP-Handbuch</a></li>
+							<li><a href="http://www.python-kurs.eu/">Python-Kurs: Tutorial, Referenz und weiterf&uuml;hrende Themen</a></li>
+							<li><a href="http://de.selfhtml.org/">SELFHTML 8.1.2 (HTML-Dateien selbst erstellen)</a></li>
+							<li><a href="http://www.css4you.de/">CSS 4 You - The Finest in Stylesheets</a></li>
+							<li><a href="http://latex.tugraz.at/latex/tutorial">LaTeX@TU Graz</a></li>					
+						</ul>
+					</li>
+					<li>Desktop Modding:
+						<ul>
+							<li><a href="http://www.hdwallpapers.net/">High Definition Wallpapers</a></li>
+							<!--<li><a href="http://www.metalwallpapers.org">Metal Wallpapers</a></li>-->
+							<li><a href="http://www.dafont.com/">dafont.com</a></li>
+							<li><a href="http://www.istartedsomething.com/20061029/royale-noir/">Royale Noir: secret XP theme uncovered</a></li>
+							<li><a href="http://www.bisigi-project.org/?lang=en">Bisigi Project</a></li>
+							<li><a href="http://kde-look.org/">KDE-Look.org</a></li>
+						</ul>
+					</li>
+			</ul>
+			</div>
+		</div>
+	</body>
+</html>
+ 
