@@ -22,7 +22,8 @@ Es wurde für einen Webspace geschrieben, der **kein PHP**, **keine Serverlogik*
 
 ```bash
 python cinderella.py
-``
+```
+
 - Deine Templates kommen in den Ordner templates/
 - Die z.B. Menü-Datei liegt in input/menu.txt
 - Das Script erzeugt die fertigen Dateien in output/
